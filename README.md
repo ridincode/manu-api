@@ -1,5 +1,18 @@
 # Rest API Documentation
 
+# ManuApi
+
+[ManuApi](https://manuapi.herokuapp.com)
+Manu-Api is a free online REST API for you to use whenever you need
+pseudo-real data without running any server-side code. You can use for
+teaching purposes, building something, sample codes, tests and etc.
+
+You can visit in [ManuApi](https://manuapi.herokuapp.com) for more information.
+
+## How to
+
+you can fetch data with any kind of methods you know(fetch API, Axios, jquery ajax,...)
+
 ### Route URL
 
 https://manuapi.herokuapp.com/api/fake-shop
@@ -9,7 +22,6 @@ https://manuapi.herokuapp.com/api/fake-shop
 ### Request
 
 `GET /item-groups/`
-curl -i -H 'Accept: application/json'
 
 ### Response
 
@@ -45,7 +57,6 @@ curl -i -H 'Accept: application/json'
 ### Request
 
 `GET /items/`
-curl -i -H 'Accept: application/json'
 
 ### Response
 
