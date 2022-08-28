@@ -2,9 +2,9 @@
 
 ### Route URL
 
-menuapi.com/api/fake-shop
+https://manuapi.herokuapp.com/api/fake-shop
 
-## Get list of Item Groups
+## Get list of all Item Groups
 
 ### Request
 
@@ -26,7 +26,7 @@ curl -i -H 'Accept: application/json'
 
 ### Request
 
-`GET /item-groups/pkid`
+`GET /item-groups/pkid/`
 
 ### Response
 
@@ -40,11 +40,11 @@ curl -i -H 'Accept: application/json'
 
     {"id":2,"name":"Bar","status":null}
 
-## Get list of Items
+## Get list of all Items
 
 ### Request
 
-`GET /item/`
+`GET /items/`
 curl -i -H 'Accept: application/json'
 
 ### Response
@@ -62,7 +62,7 @@ curl -i -H 'Accept: application/json'
 
 ### Request
 
-`GET /item-groups/pkid`
+`GET /items/pkid/`
 
 ### Response
 
